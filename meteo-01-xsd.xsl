@@ -35,7 +35,7 @@
                        </tr>
                        
                        <tr> <!-- filtrer les villes selon la temp -->
-                           <td>Nombre de villes qui ont temp superieur a 30°C</td>
+                           <td>Nombre de villes qui ont temp superieur a 25°C</td>
                            <td><xsl:value-of select="count(ville[@temperature >= 25])"/></td>
                        </tr>
                        
